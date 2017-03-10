@@ -3,6 +3,7 @@ $(document).ready(function(){
   $('#viewport').scrollbar();
   $('#splash').height($('#viewport').height())
   $('#outer-frame').height($('#outer-frame-ref').height())
+  $('#map').height($('#map-ref').height())
   
   invite
   
