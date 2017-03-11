@@ -1,11 +1,13 @@
 $(document).ready(function(){
   
-  $('#viewport').scrollbar();
-  $('#splash').height($('#viewport').height())
-  $('#outer-frame').height($('#outer-frame-ref').height())
-  $('#map').height($('#map-ref').height())
+  Pace.on('done',function(){
+    
+  $('#viewport').show(1000)
+    $('#viewport').scrollbar();
+    $('#splash').height($('#viewport').height())
+    $('#outer-frame').height($('#outer-frame-ref').height())
+    $('#map').height($('#map-ref').height())
   
-  invite
   
   $('.parallax-window').each(function() {
     var off = $(this).offset().top
@@ -21,5 +23,6 @@ $(document).ready(function(){
         $(this).css({transform: 'translateY(' + translate +'px)'});
       }
     });
+  });
   });
 });
