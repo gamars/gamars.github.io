@@ -81,7 +81,7 @@ h1 {
     background-repeat: no-repeat!important;
     background-size: cover!important;
     z-index: 1;
-    background: url(../img/ceremony.jpg);
+    background: url('/img/ceremony.jpg');
     background-position: 50%;
     transition-property: none;
 }
@@ -91,7 +91,7 @@ h1 {
     background-repeat: no-repeat!important;
     background-size: cover!important;
     z-index: 1;
-    background: url(../img/bzh.jpg);
+    background: url('/img/bzh.jpg');
     background-position: 50%;
     transition-property: none;
 }
@@ -101,7 +101,7 @@ h1 {
     background-repeat: no-repeat!important;
     background-size: cover!important;
     z-index: 1;
-    background: url(../img/home.jpg);
+    background: url('/img/home.jpg');
     background-position: 50%;
     transition-property: none;
 }
