@@ -98,7 +98,7 @@ h1 {
     background-size: cover!important;
     z-index: 1;
     background: url('/img/invite.jpg');
-    background-position: 15%;
+    background-position: -56px;
     transition-property: none;
 }
 
@@ -109,7 +109,7 @@ h1 {
     background-size: cover!important;
     z-index: 1;
     background: url('/img/home.jpg');
-    background-position: 50%;
+    background-position: 15px;
     transition-property: none;
 }
 
