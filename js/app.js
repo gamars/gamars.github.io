@@ -9,6 +9,11 @@ $(document).ready(function(){
   
     $(window).on("scroll", function(event){
       var scrollTop = $(window).scrollTop();
+
+      var head = Math.floor(scrollTop * 0.45)
+      $('.head').css({'padding-top': head+'px'})    
+      
+      
       $('.parallax-window').each(function(){
         var speed = $(this).attr('data-speed');
         var delta = (scrollTop-($(this).offset().top)) * speed
