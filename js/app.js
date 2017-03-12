@@ -2,9 +2,8 @@ $(document).ready(function(){
   
   Pace.on('done',function(){
     
-    $('#viewport').show(1000)
-    $('#viewport').scrollbar();
-    $('#splash').height($('#viewport').height())
+    $('#splash').height($(window).height())
+    $('acrticle').show(1000)
     $('#outer-frame').height($('#outer-frame-ref').height())
     $('#ceremony-frame').height($('#ceremony-ref').height())
     $('#map').height($('#map-ref').height())
@@ -14,8 +13,8 @@ $(document).ready(function(){
       $(this).data('orig-offset', off);
     });
     
-    $('#viewport').not('.scroll-wrapper').on("scroll", function(){
-      var scrollTop = $('#viewport').scrollTop();
+    $(window).on("scroll", function(){
+      var scrollTop = $(window).scrollTop();
       var viewportHeight = $(window).height()
       
       $('.parallax-window').each(function(){
