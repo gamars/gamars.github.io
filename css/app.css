@@ -1,3 +1,7 @@
+a, a:hover, a:visited {
+  color: #348bea;
+}
+
 p {
   color: #8c8c8c;
   font-family: 'Open Sans', sans-serif;
