@@ -109,7 +109,7 @@ h1 {
     background-size: cover!important;
     z-index: 1;
     background: url('/img/home.jpg');
-    background-position: 15px;
+    background-position: 50%;
     transition-property: none;
 }
 
