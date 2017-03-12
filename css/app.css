@@ -56,6 +56,21 @@ h1 {
   border: 1px solid #999;
 }
 
+#ceremony-frame {
+  overflow: hidden;
+  border: 1px solid #999;
+}
+
+.ceremony-image {
+    width: 100%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    z-index: 1;
+    background: url(../img/ceremony.jpg);
+    background-position: 50%;
+    transition-property: none;
+}
+
 .wedding-image {
     width: 100%;
     background-repeat: no-repeat!important;

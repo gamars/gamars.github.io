@@ -6,10 +6,10 @@ $(document).ready(function(){
     $('#viewport').scrollbar();
     $('#splash').height($('#viewport').height())
     $('#outer-frame').height($('#outer-frame-ref').height())
+    $('#ceremony-frame').height($('#ceremony-ref').height())
     $('#map').height($('#map-ref').height())
   
-  
-  $('.parallax-window').each(function() {
+    $('.parallax-window').each(function() {
     var off = $(this).offset().top
     $(this).data('orig-offset', off);
   });
