@@ -54,6 +54,7 @@ h1 {
 
 #splash {
   overflow: hidden;
+  height: 1000px;
 }
 
 .parallax-window {
@@ -97,6 +98,7 @@ h1 {
 }
 
 .home-image {
+  display: none;
     width: 100%;
     background-repeat: no-repeat!important;
     background-size: cover!important;
@@ -108,7 +110,6 @@ h1 {
 
 acrticle{
 /*    position: fixed;*/
-  display: none;
     top: 0;
     left: 0;
     right: 0;
