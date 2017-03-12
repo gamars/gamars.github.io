@@ -46,6 +46,8 @@ p {
 
 #map {
     padding-top: 5px;
+    border: 1px solid #999!important;
+    padding: 0px;
 }
 
 h1 {
