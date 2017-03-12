@@ -57,7 +57,7 @@ h1 {
 }
 
 .parallax-window {
-      height: 125%;
+      height: 165%;
       width: 100%;
       z-index: 5;
       left: 0;
@@ -91,7 +91,7 @@ h1 {
     background-repeat: no-repeat!important;
     background-size: cover!important;
     z-index: 1;
-    background: url('/img/bzh.jpg');
+    background: url('/img/invite.jpg');
     background-position: 50%;
     transition-property: none;
 }

@@ -27,6 +27,7 @@ $(document).ready(function(){
           var off = $(this).data('orig-offset');
           var translate =  (scrollTop - off) / $(window).height() * 220;
           $(this).css({transform: 'translateY(' + translate +'px)'});
+          console.log($(this), translate)
         }
       });
     });
