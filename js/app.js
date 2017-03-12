@@ -10,7 +10,8 @@ $(document).ready(function(){
     $(window).on("scroll", function(event){
       var scrollTop = $(window).scrollTop();
       $('.parallax-window').each(function(){
-        var delta = (scrollTop-($(this).offset().top)) * 0.2
+        var speed = $(this).attr('data-speed');
+        var delta = (scrollTop-($(this).offset().top)) * speed
         $(this).css({transform: 'translateY(' + delta +'px)'});    
       });
     });
