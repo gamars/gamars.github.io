@@ -6,6 +6,11 @@ p {
       font-weight: 300;
 }
 
+.glyphicon {
+  padding-left: 25px;
+  padding-right: 15px;
+}
+
 .head {
   margin: 0px;
   /* text-transform: uppercase; */
