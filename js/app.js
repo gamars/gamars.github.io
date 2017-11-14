@@ -6,6 +6,7 @@ $(document).ready(function(){
     $('#outer-frame').height($('#outer-frame-ref').height());
     $('#ceremony-frame').height($('#ceremony-ref').height());
     $('#map').height($('#map-ref').height());
+    $('#map2').height($('#map2-ref').height());
   
     $(window).on("scroll", function(event){
       var scrollTop = $(window).scrollTop();
